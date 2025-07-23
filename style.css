@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+.site-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.hero {
+  padding: 0;
+  height: 40vh;
+  overflow: hidden;
+}
+
+.hero-swiper {
+  height: 100%;
+}
+
+.hero-swiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.intro {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.location {
+  font-size: 1rem;
+  color: #666;
+}
+
+.price {
+  background: #e8f5e9;
+  padding: 10px;
+  text-align: center;
+}
+
+.price-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+h2 {
+  background: #f0f0f0;
+  padding: 5px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.info-card {
+  background: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 4px solid #2196f3;
+}
+
+.summary .info-card {
+  background: #e3f2fd;
+  border-left-color: #1976d2;
+}
+
+.bonus-section {
+  background: url('city.jpg') center center/cover no-repeat;
+  color: white;
+  padding: 20px 10px;
+}
+
+.bonus-section .info-card {
+  background: rgba(0, 0, 0, 0.6);
+  border-left: 4px solid #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 10px;
+  background: #0d47a1;
+  color: white;
+  font-size: 0.9rem;
+}
+
+footer .legal {
+  font-size: 0.75rem;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+
+.gallery-swiper, .video-swiper {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.gallery-swiper img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.fullscreen-gallery {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: black;
+  z-index: 999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullscreen-gallery img {
+  width: 100%;
+  height: 100vh;
+  object-fit: contain;
+  background: black;
+}
+
+.swiper-pagination {
+  bottom: 5px !important;
+}
